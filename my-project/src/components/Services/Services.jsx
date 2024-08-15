@@ -33,11 +33,13 @@ const Services = () => {
   {/*header section */}
   <div className='text-center max-w-lg mx-auto
   space-y-2'>
-    <h1 className='text-3xl font-bold text-dark
+    <h1 data-aos='fade-up' 
+     className='text-3xl font-bold text-dark
     '>Fresh and <span className='text-primary'>
         Yummy Foods</span>{""}
         </h1>
-        <p className='text-sm opacity-50'>
+        <p data-aos='fade-up' data-aos-delay='300'
+        className='text-sm opacity-50'>
             Lorem ipsum dolor sit, amet 
             consectetur adipisicing elit. Adipisci
             reiciendis maxime nesciunt quas suscipit

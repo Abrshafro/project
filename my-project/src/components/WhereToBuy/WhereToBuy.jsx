@@ -9,9 +9,15 @@ const WhereToBuy = () => {
         gap-8 place-items-center'>
             {/* text-content section */}
             <div className='space-y-8'>
-                <h1 className='text-4xl font-bold text-dark
+                <h1 
+                data-aos='fade-up'
+                data-aos-delay='300'
+                 className='text-4xl font-bold text-dark
                 font-serif'>where to buy our Foods?</h1>
-                <div className='flex items-center gap-4'>
+                <div 
+                data-aos='fade-up'
+                data-aos-delay='500'
+                className='flex items-center gap-4'>
                     <input type="text"
                      placeholder='country'
                     className='input-style w-full lg:w-[120px]' />
@@ -20,10 +26,14 @@ const WhereToBuy = () => {
                      placeholder='Zipcode'
                     className='input-style w-full' />
                 </div>
-                <button className='primary-btn'>Search</button>
+                <button 
+                data-aos='fade-up'
+                data-aos-delay='700'
+                className='primary-btn'>Search</button>
             </div>
             {/* map section */}
-            <div className='col-span-2'>
+            <div data-aos='fade'
+             className='col-span-2'>
                 <img src={Ethiopiamap} alt="" 
                 className='w-full sm:w-[500px] mx-auto'/>
             </div>

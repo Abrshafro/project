@@ -5,7 +5,7 @@ const Navbar = ({sidebar,setSidebar}) => {
   return(
    <div className='absolute top-0 left-0 w-full
    text-white z-20'>
-    <div className='container'>
+    <div data-aos='fade' className='container'>
       <div className='flex justify-between
       items-center'>
         {/*logo section */}
