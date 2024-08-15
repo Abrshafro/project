@@ -27,7 +27,7 @@ const Hero = () => {
                      consectetur adipisicing elit.
                       Voluptatibus fugit laboriosam iure 
                       voluptatum neque?</p>
-                      <button className='primary-btn'>shop Now</button>
+                      <button className='secondary-btn'>shop Now</button>
                 </div>
                 {/*image section */}
                 <img src={ShiroImg} alt="not found "
