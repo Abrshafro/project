@@ -8,29 +8,31 @@ const ServicesData = [
     {
         id:1,
         image: Breakfast,
-        title: "Breakfast",
-        subtitle: "lorem ipsum dolor sit amet, consecadipliscing elit.",
+        title: "Breakfast Menu",
+        subtitle: "Shiro, Ambasha Bread, Kinche, Beso Bites, Chechebsa, Enqulal Tibs, Enqulal Tibs with Siga, Ye Telba Fitfit, Ful, Bula Genfo, Fruits and Vegetables",
         aosDelay:"300",
     },
     {
         id:2,
         image: Lunch,
-        title: "Lunch",
-        subtitle: "lorem ipsum dolor sit amet, consecadipliscing elit.",
+        title: "Lunch Menu",
+        subtitle: "Beyaynetu, Fiyel Kitfo, Kitfo, Gomen Kitfo, Finto Kikil, Fiyel Tibs, Chekena Tibs, Tegabino Shiro, Shiro Bosena, Dulet, Yeshekla Tibs, DoroWot",
         aosDelay:"500",
     },
     {
         id:3,
         image: Dinner,
-        title: "Dinner",
-        subtitle: "lorem ipsum dolor sit amet, consecadipliscing elit.",
+        title: "Dinner Menu",
+        subtitle: "Mahberawi, Beyaynetu, Kunta Firfer, alecha kikil, Shiro feses, Shiro Tegabino, Shiro Bosena, Dulet, Kitfo, Gored-Gored",
         aosDelay:"700",
     },
 ];
 
 const Services = () => {
   return  <div className='container my-16 space-y-4'>
+
   {/*header section */}
+  
   <div className='text-center max-w-lg mx-auto
   space-y-2'>
     <h1 data-aos='fade-up' 
@@ -39,12 +41,12 @@ const Services = () => {
         Yummy Foods</span>{""}
         </h1>
         <p data-aos='fade-up' data-aos-delay='300'
-        className='text-sm opacity-50'>
-            Lorem ipsum dolor sit, amet 
-            consectetur adipisicing elit. Adipisci
-            reiciendis maxime nesciunt quas suscipit
-            fuga deleniti voluptas cum minus 
-            cupiditate!
+        className='text-lg  opacity-50 font-serif'>
+           AB-SHIRO Food and service is unique as
+           is the country itself. The Tradations here 
+           are authentic, and all around you are the 
+           scenery, the music, aromas, food, art, history
+           and culture of this ancient civilization.
         </p>
   </div >
   {/* Card section */}
@@ -66,7 +68,7 @@ const Services = () => {
             <div className='space-y-2'>
                 <h1 className='text-2xl font-bold
                 text-primary'>{title}</h1>
-                <p className='text-dark'>{subtitle}</p>
+                <p className='text-dark font-serif'>{subtitle}</p>
             </div>
             </div>
 

@@ -19,17 +19,17 @@ const WhereToBuy = () => {
                 data-aos-delay='500'
                 className='flex items-center gap-4'>
                     <input type="text"
-                     placeholder='country'
+                     placeholder='Region'
                     className='input-style w-full lg:w-[120px]' />
 
                     <input type="text"
-                     placeholder='Zipcode'
+                     placeholder='tel-number'
                     className='input-style w-full' />
                 </div>
                 <button 
                 data-aos='fade-up'
                 data-aos-delay='700'
-                className='primary-btn'>Search</button>
+                className='primary-btn text-xl font-serif'>Search</button>
             </div>
             {/* map section */}
             <div data-aos='fade'

@@ -12,36 +12,36 @@ const Footer = () => {
             <div data-aos='fade-up'
              className='space-y-6'>
               <h1 className='text-4xl font-bold'>AB SHIRO</h1>
-              <p className='text-sm max-w-[300px]'>Lorem ipsum dolor, sit amet consectetur
-                 adipisicing elit. Minus qui, eos ad 
-                 consectetur maiores blanditiis.
-                  Alias natus deserunt quos rerum odit, 
-                  eaque deleniti minima impedit.</p>
+              <p className=' text-lg font-medium font-serif max-w-[300px]'>
+                AB-SHIRO is located in Addis Ababa (Bole, Megenagna, Mexico, Saris), Bahir Dar, Gondar, Jimma, 
+                Debre Birhan, Jigjga, Mekele, Hawassa, Assosa, Adama.
+                You can Order from where you located.
+              </p>
             </div>
             {/* NavLink section */}
             <div data-aos='fade-up'
              data-aos-delay='300'
             className='space-y-6'>
                 <h1 className='text-4xl font-bold'>Quick Links</h1>
-                <div className='grid grid-cols-2 gap-3'>
+                <div >
                     {/* First column links */}
-                 <div>
+                 <div className=' cursor-pointer font-serif text-xl'>
                     <ul className='space-y-2'>
                     <li href="#">Home</li>
                     <li href="#">About</li>
                     <li href="#">contact</li>
-                    <li href="#">Serach Foods</li>
+                   {/* <li href="#">Serach Foods</li>*/}
                     </ul>
                  </div>
                     {/* second column links */}
-                    <div>
+                  {/*  <div>
                     <ul className='space-y-2'>
                     <li href="#">Home</li>
                     <li href="#">About</li>
                     <li href="#">contact</li>
                     <li href="#">Serach Foods</li>
                     </ul>
-                 </div>
+                 </div>*/}
                 </div>
             </div>
             {/* social links section */}
@@ -50,11 +50,11 @@ const Footer = () => {
             className='space-y-6'>
                 <h1 className='text-4xl font-bold'>Follow Us
                 </h1>
-                <div>
+                <div className='text-xl font-serif'>
                     <p>+251967200929</p>
                     <p>Abrham Getahun</p>
                 </div>
-                <div className='flex items-center gap-3'>
+                <div className='flex items-center gap-3 cursor-pointer'>
                     <FaTiktok className='text-3xl
                     hover:scale-105 duration-300'/>
                      <FaTelegram className='text-3xl
@@ -65,9 +65,10 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+
         {/* copyright section */}
         <p className='text-white text-center mt-8 pt-8
-        border-t-2'>copyright &copy; 2024 AB SHIRO. All rights 
+        border-t-2 text-xl font-serif'>copyright &copy; 2024 AB SHIRO. All rights 
             reserved.
         </p>
 

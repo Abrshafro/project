@@ -6,7 +6,7 @@ import {FaFacebookF,FaTiktok,FaTelegram} from
 
 const Hero = () => {
     const[sidebar,setSidebar]=React.useState(false);
-  return <main className='md:px-12 md:py-6 bg-primaryDark'>
+  return <main className='md:px-12 md:py-6 bg-yellow-700'>
     <section className='relative min-h-[650px]
     bg-gradient-to-r from-primary to-secondary
     w-full md:rounded-xl shadow-md'>
@@ -20,27 +20,27 @@ const Hero = () => {
             place-items-center min-h-[650px]'>
                 {/*text content section */}
                 <div className='text-white mt-[100px] md:mt-0 p-4 space-y-4 '>
-                    <h1 data-aos="fade-up" className='text-3xl pl-6 md:pl-14'>01___________</h1>
+                    <h1 data-aos="fade-up" className='text-3xl pl-6 md:pl-14'>{/*01___________*/}</h1>
                     <h1 data-aos="fade-up" 
                         data-aos-delay="300"
                     className='text-5xl font-bold uppercase text-shadow'> 
                         A Delicious Food</h1>
                     <p data-aos="fade-up"
                      data-aos-delay="500" 
-                     className='text-sm'>Lorem ipsum dolor sit amet
-                     consectetur adipisicing elit.
-                      Voluptatibus fugit laboriosam iure 
-                      voluptatum neque?</p>
+                     className=' text-lg font-serif'>Our Foods are a true delight
+                     for the senses,offering a symphony of flavors, aromas,
+                     and textures that can transport you to different cultures
+                     and expriences. </p>
                       <button data-aos="fade-up" 
                       data-aos-delay="700"
                       data-aos-offset="0"
-                      className='secondary-btn'>shop Now</button>
+                      className='secondary-btn text-xl font-serif '>Order Now</button>
                 </div>
                 {/*image section */}
                 <div data-aos="zoom-in">
                 <img src={ShiroImg} alt="not found "
                 className='relative z-10 w-[400px]
-                img-shadow' />
+                img-shadow left-10' />
                 </div>
 
 
@@ -55,7 +55,7 @@ const Hero = () => {
       data-aos='fade'
       data-aos-delay='600'
       data-aos-duration='1800'
-      className='large-text'>shiro</h1>
+      className='large-text font-serif left-10' >shiro</h1>
 
       {/* sidebar section */}
       {sidebar &&(

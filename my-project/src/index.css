@@ -17,7 +17,7 @@
         rounded-md hover:bg-secondary duration-300;
     }
     .secondary-btn{
-        @apply border border-white px-4 py-2 rounded-lg;
+        @apply border border-white px-4 py-2 rounded-lg cursor-pointer;
     }
     .large-text{
         @apply text-center text-white text-[80px]

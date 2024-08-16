@@ -10,18 +10,18 @@ const Navbar = ({sidebar,setSidebar}) => {
       items-center'>
         {/*logo section */}
         <h1 className='text-4xl font-bold
-        uppercase'>ab <span className='font-normal
+        uppercase font-serif'>ab <span className='font-normal
         text-2xl'>shiro</span>
         </h1>
         {/*Navlinks Section */}
-        <ul className=' lg:flex hidden space-x-4 text-xl'>
+        <ul className=' lg:flex hidden space-x-10 text-xl font-serif cursor-pointer'>
           <li href="#">Home</li>
-          <li href="#">where to find</li>
+          <li href="#">About</li>
           <li href="#">contact</li>
         </ul>
         {/*Hamburger menu */}
         <div onClick={()=>setSidebar(!sidebar)}>
-         <GiHamburgerMenu className='text-3xl
+         <GiHamburgerMenu className='text-3xl 
           cursor-pointer'/>
         </div>
       </div>
