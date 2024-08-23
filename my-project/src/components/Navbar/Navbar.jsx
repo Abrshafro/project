@@ -5,7 +5,7 @@ const Navbar = ({sidebar,setSidebar}) => {
   return(
    <div className='absolute top-0 left-0 w-full
    text-white z-20'>
-    <div data-aos='fade' className='container'>
+    <div data-aos='fade-up' className='container'>
       <div className='flex justify-between
       items-center'>
         {/*logo section */}
@@ -16,8 +16,8 @@ const Navbar = ({sidebar,setSidebar}) => {
         {/*Navlinks Section */}
         <ul className=' lg:flex hidden space-x-10 text-xl font-serif cursor-pointer'>
           <li href="#">Home</li>
-          <li href="#">About</li>
-          <li href="#">contact</li>
+          <li href="#">Services</li>
+          <li href="#">WhereToBuy</li>
         </ul>
         {/*Hamburger menu */}
         <div onClick={()=>setSidebar(!sidebar)}>

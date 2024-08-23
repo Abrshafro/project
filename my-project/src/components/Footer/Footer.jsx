@@ -28,8 +28,8 @@ const Footer = () => {
                  <div className=' cursor-pointer font-serif text-xl'>
                     <ul className='space-y-2'>
                     <li href="#">Home</li>
-                    <li href="#">About</li>
-                    <li href="#">contact</li>
+                    <li href="#">Services</li>
+                    <li href="#">WhereToBuy</li>
                    {/* <li href="#">Serach Foods</li>*/}
                     </ul>
                  </div>

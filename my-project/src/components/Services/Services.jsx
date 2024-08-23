@@ -29,7 +29,7 @@ const ServicesData = [
 ];
 
 const Services = () => {
-  return  <div className='container my-16 space-y-4'>
+  return  <div className='container my-16 space-y-4 service'>
 
   {/*header section */}
   

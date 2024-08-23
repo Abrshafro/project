@@ -16,7 +16,7 @@ const App = () => {
   },[]);
   return <main
    className='overflow-x-hidden'>
-    <Hero/>
+    < Hero/>
     <Services/>
     <WhereToBuy/>
     <Footer/>
